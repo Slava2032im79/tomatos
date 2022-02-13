@@ -41,12 +41,5 @@ class Gardener:
             print('сбор урожая окончен')
         else:
             print('пока рано ,помидоры еще зеленые.')
-if __name__ == '__main__':
-    great_tomato_bush = TomatoBush(4)
-    gardener = Gardener('Emilio', great_tomato_bush)
-    gardener.work()
-    gardener.work()
-    gardener.harvest()
-    gardener.work()
-    gardener.harvest()
+
 
